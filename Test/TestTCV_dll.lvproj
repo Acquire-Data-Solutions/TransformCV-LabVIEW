@@ -131,10 +131,19 @@
 			<Item Name="test_obj.vi" Type="VI" URL="../test_obj.vi"/>
 			<Item Name="test_struc.vi" Type="VI" URL="../test_struc.vi"/>
 		</Item>
+		<Item Name="toolkit" Type="Folder">
+			<Item Name="modelParameters.ctl" Type="VI" URL="../src/toolkit/modelParameters.ctl"/>
+		</Item>
+		<Item Name="cam" Type="Folder">
+			<Item Name="initializeCameraAndSetResolution.vi" Type="VI" URL="../src/cam/initializeCameraAndSetResolution.vi"/>
+			<Item Name="close-cam-session-if-exists.vi" Type="VI" URL="../src/cam/close-cam-session-if-exists.vi"/>
+			<Item Name="get-cam-names.vi" Type="VI" URL="../src/cam/get-cam-names.vi"/>
+		</Item>
 		<Item Name="gui" Type="Folder">
 			<Item Name="acquireAndDetectTest.vi" Type="VI" URL="../acquireAndDetectTest.vi"/>
 			<Item Name="black-squircle-dropdown.ctl" Type="VI" URL="../src/elements/black-squircle-dropdown.ctl"/>
 		</Item>
+		<Item Name="black-squircle-ring.ctl" Type="VI" URL="../src/elements/black-squircle-ring.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
