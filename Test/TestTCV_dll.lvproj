@@ -132,7 +132,7 @@
 			<Item Name="test_struc.vi" Type="VI" URL="../test_struc.vi"/>
 		</Item>
 		<Item Name="toolkit" Type="Folder">
-			<Item Name="modelParameters.ctl" Type="VI" URL="../src/toolkit/modelParameters.ctl"/>
+			<Item Name="transformCvToolkit.lvclass" Type="LVClass" URL="../src/toolkit/transformCvToolkit.lvclass"/>
 		</Item>
 		<Item Name="cam" Type="Folder">
 			<Item Name="initializeCameraAndSetResolution.vi" Type="VI" URL="../src/cam/initializeCameraAndSetResolution.vi"/>
