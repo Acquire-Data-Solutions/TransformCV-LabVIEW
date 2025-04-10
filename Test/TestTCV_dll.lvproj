@@ -4,6 +4,7 @@
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Property Name="NI.Project.Description" Type="Str"></Property>
 	<Item Name="My Computer" Type="My Computer">
+		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.control.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.tcp.enabled" Type="Bool">false</Property>
@@ -129,6 +130,10 @@
 			<Item Name="camera_pointer_mod.vi" Type="VI" URL="../camera_pointer_mod.vi"/>
 			<Item Name="test_obj.vi" Type="VI" URL="../test_obj.vi"/>
 			<Item Name="test_struc.vi" Type="VI" URL="../test_struc.vi"/>
+		</Item>
+		<Item Name="gui" Type="Folder">
+			<Item Name="acquireAndDetectTest.vi" Type="VI" URL="../acquireAndDetectTest.vi"/>
+			<Item Name="black-squircle-dropdown.ctl" Type="VI" URL="../src/elements/black-squircle-dropdown.ctl"/>
 		</Item>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
