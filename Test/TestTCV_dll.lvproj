@@ -132,7 +132,7 @@
 			<Item Name="test_struc.vi" Type="VI" URL="../test_struc.vi"/>
 		</Item>
 		<Item Name="toolkit" Type="Folder">
-			<Item Name="transformCvToolkit.lvclass" Type="LVClass" URL="../src/toolkit/transformCvToolkit.lvclass"/>
+			<Item Name="transformCv.lvclass" Type="LVClass" URL="../src/toolkit/transformCv.lvclass"/>
 		</Item>
 		<Item Name="cam" Type="Folder">
 			<Item Name="initializeCameraAndSetResolution.vi" Type="VI" URL="../src/cam/initializeCameraAndSetResolution.vi"/>
@@ -142,8 +142,8 @@
 		<Item Name="gui" Type="Folder">
 			<Item Name="acquireAndDetectTest.vi" Type="VI" URL="../acquireAndDetectTest.vi"/>
 			<Item Name="black-squircle-dropdown.ctl" Type="VI" URL="../src/elements/black-squircle-dropdown.ctl"/>
+			<Item Name="black-squircle-ring.ctl" Type="VI" URL="../src/elements/black-squircle-ring.ctl"/>
 		</Item>
-		<Item Name="black-squircle-ring.ctl" Type="VI" URL="../src/elements/black-squircle-ring.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
@@ -184,6 +184,8 @@
 				<Item Name="Trim Whitespace One-Sided.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace One-Sided.vi"/>
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
+				<Item Name="Color to RGB.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/colorconv.llb/Color to RGB.vi"/>
+				<Item Name="IMAQ Overlay Rectangle" Type="VI" URL="/&lt;vilib&gt;/vision/Overlay.llb/IMAQ Overlay Rectangle"/>
 			</Item>
 			<Item Name="niimaqdx.dll" Type="Document" URL="niimaqdx.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -192,6 +194,9 @@
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="refDll.dll" Type="Document" URL="../model/refDll.dll"/>
+			<Item Name="nivision.dll" Type="Document" URL="nivision.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
