@@ -119,10 +119,10 @@
 			<Item Name="zlibwapi.dll" Type="Document" URL="../dependencies_dll_release/zlibwapi.dll"/>
 		</Item>
 		<Item Name="callTCV.vi" Type="VI" URL="../callTCV.vi"/>
-		<Item Name="camera_pointer_mod.vi" Type="VI" URL="../../camera_pointer_mod.vi"/>
+		<Item Name="camera_pointer_mod.vi" Type="VI" URL="../camera_pointer_mod.vi"/>
 		<Item Name="pointer.vi" Type="VI" URL="/C/Users/ADS/Documents/VStudio/pointer.vi"/>
 		<Item Name="structure.vi" Type="VI" URL="/C/Users/ADS/Downloads/structure.vi"/>
-		<Item Name="TCV1.vi" Type="VI" URL="../../TCV1.vi"/>
+		<Item Name="TCV1.vi" Type="VI" URL="../TCV1.vi"/>
 		<Item Name="TCV_Lib.dll" Type="Document" URL="../dependencies_dll_release/TCV_Lib.dll"/>
 		<Item Name="test_obj.vi" Type="VI" URL="../test_obj.vi"/>
 		<Item Name="test_struc.vi" Type="VI" URL="../test_struc.vi"/>
