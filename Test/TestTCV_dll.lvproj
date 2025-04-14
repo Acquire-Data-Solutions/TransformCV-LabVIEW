@@ -127,6 +127,7 @@
 		</Item>
 		<Item Name="tests" Type="Folder">
 			<Item Name="callTCV.vi" Type="VI" URL="../callTCV.vi"/>
+			<Item Name="acquireAndDetectTest.vi" Type="VI" URL="../acquireAndDetectTest.vi"/>
 			<Item Name="camera_pointer_mod.vi" Type="VI" URL="../camera_pointer_mod.vi"/>
 			<Item Name="test_obj.vi" Type="VI" URL="../test_obj.vi"/>
 			<Item Name="test_struc.vi" Type="VI" URL="../test_struc.vi"/>
@@ -143,7 +144,7 @@
 			<Item Name="black-squircle-dropdown.ctl" Type="VI" URL="../src/elements/black-squircle-dropdown.ctl"/>
 			<Item Name="black-squircle-ring.ctl" Type="VI" URL="../src/elements/black-squircle-ring.ctl"/>
 		</Item>
-		<Item Name="acquireAndDetectTest.vi" Type="VI" URL="../src/acquireAndDetectTest.vi"/>
+		<Item Name="acquireAndDetectDemo.vi" Type="VI" URL="../src/acquireAndDetectDemo.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
@@ -197,6 +198,7 @@
 			<Item Name="nivision.dll" Type="Document" URL="nivision.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="TCV_Lib.dll" Type="Document" URL="../TCV_Lib.dll"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
