@@ -144,6 +144,9 @@
 			<Item Name="black-squircle-dropdown.ctl" Type="VI" URL="../src/elements/black-squircle-dropdown.ctl"/>
 			<Item Name="black-squircle-ring.ctl" Type="VI" URL="../src/elements/black-squircle-ring.ctl"/>
 		</Item>
+		<Item Name="misc" Type="Folder">
+			<Item Name="modelParametersFGV.vi" Type="VI" URL="../src/misc/modelParametersFGV.vi"/>
+		</Item>
 		<Item Name="acquireAndDetectDemo.vi" Type="VI" URL="../src/acquireAndDetectDemo.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
