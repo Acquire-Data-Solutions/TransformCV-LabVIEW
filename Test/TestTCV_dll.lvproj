@@ -149,6 +149,7 @@
 			<Item Name="results2candyIndicators.vi" Type="VI" URL="../src/misc/results2candyIndicators.vi"/>
 			<Item Name="conf2gui.vi" Type="VI" URL="../src/misc/conf2gui.vi"/>
 			<Item Name="pass2color.vi" Type="VI" URL="../src/misc/pass2color.vi"/>
+			<Item Name="linScale.vi" Type="VI" URL="../src/misc/linScale.vi"/>
 		</Item>
 		<Item Name="acquireAndDetectDemo.vi" Type="VI" URL="../src/acquireAndDetectDemo.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
@@ -195,6 +196,7 @@
 				<Item Name="IMAQ Overlay Rectangle" Type="VI" URL="/&lt;vilib&gt;/vision/Overlay.llb/IMAQ Overlay Rectangle"/>
 				<Item Name="IMAQ Overlay Text" Type="VI" URL="/&lt;vilib&gt;/vision/Overlay.llb/IMAQ Overlay Text"/>
 				<Item Name="NI_AALBase.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALBase.lvlib"/>
+				<Item Name="High Resolution Relative Seconds.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/High Resolution Relative Seconds.vi"/>
 			</Item>
 			<Item Name="niimaqdx.dll" Type="Document" URL="niimaqdx.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
