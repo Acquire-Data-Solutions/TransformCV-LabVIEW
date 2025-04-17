@@ -127,6 +127,7 @@
 		</Item>
 		<Item Name="tests" Type="Folder">
 			<Item Name="callTCV.vi" Type="VI" URL="../callTCV.vi"/>
+			<Item Name="acquireAndDetectTest-OpenVINO.vi" Type="VI" URL="../acquireAndDetectTest-OpenVINO.vi"/>
 			<Item Name="acquireAndDetectTest.vi" Type="VI" URL="../acquireAndDetectTest.vi"/>
 			<Item Name="camera_pointer_mod.vi" Type="VI" URL="../camera_pointer_mod.vi"/>
 			<Item Name="test_obj.vi" Type="VI" URL="../test_obj.vi"/>
@@ -198,6 +199,15 @@
 				<Item Name="NI_AALBase.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALBase.lvlib"/>
 				<Item Name="High Resolution Relative Seconds.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/High Resolution Relative Seconds.vi"/>
 				<Item Name="IMAQ Clear Overlay" Type="VI" URL="/&lt;vilib&gt;/vision/Overlay.llb/IMAQ Clear Overlay"/>
+				<Item Name="IMAQ DL Model Refnum.ctl" Type="VI" URL="/&lt;vilib&gt;/vision/Deep Learning.llb/IMAQ DL Model Refnum.ctl"/>
+				<Item Name="NI_Vision_Development_Module.lvlib" Type="Library" URL="/&lt;vilib&gt;/vision/NI_Vision_Development_Module.lvlib"/>
+				<Item Name="IMAQ DL Model Type.ctl" Type="VI" URL="/&lt;vilib&gt;/vision/Deep Learning.llb/IMAQ DL Model Type.ctl"/>
+				<Item Name="IMAQ DL Model Label.ctl" Type="VI" URL="/&lt;vilib&gt;/vision/Deep Learning.llb/IMAQ DL Model Label.ctl"/>
+				<Item Name="ROI Descriptor" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/ROI Descriptor"/>
+				<Item Name="NI_Data Type.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/Data Type/NI_Data Type.lvlib"/>
+				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
+				<Item Name="IMAQ Convert Variant to Data" Type="VI" URL="/&lt;vilib&gt;/vision/Deep Learning.llb/IMAQ Convert Variant to Data"/>
+				<Item Name="IMAQ DL Model Output Data.ctl" Type="VI" URL="/&lt;vilib&gt;/vision/Deep Learning.llb/IMAQ DL Model Output Data.ctl"/>
 			</Item>
 			<Item Name="niimaqdx.dll" Type="Document" URL="niimaqdx.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -211,6 +221,9 @@
 			</Item>
 			<Item Name="TCV_Lib.dll" Type="Document" URL="../TCV_Lib.dll"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
+			<Item Name="nivisidl.dll" Type="Document" URL="nivisidl.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
